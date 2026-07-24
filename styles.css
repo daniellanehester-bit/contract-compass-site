@@ -252,11 +252,23 @@ section { padding: 72px 0; }
   border-radius: 999px;
 }
 .price-card h3 { font-size: 20px; color: var(--navy); margin-bottom: 6px; }
+.price-card .trial-badge {
+  display: inline-block;
+  background: rgba(31,122,77,0.12);
+  color: var(--green);
+  font-weight: 800;
+  font-size: 13px;
+  letter-spacing: 0.02em;
+  padding: 5px 12px;
+  border-radius: 999px;
+  margin: 10px 0 2px;
+}
 .price-card .amount { font-size: 40px; font-weight: 800; color: var(--navy); margin: 10px 0 4px; }
 .price-card .amount span { font-size: 16px; font-weight: 600; color: var(--gray); }
 .price-card ul { list-style: none; margin: 22px 0 26px; }
 .price-card li { padding: 7px 0; color: var(--ink); font-size: 15px; padding-left: 24px; position: relative; }
 .price-card li::before { content: "✓"; position: absolute; left: 0; color: var(--green); font-weight: 800; }
+.pricing-fineprint { text-align: center; color: var(--gray); font-size: 13px; margin-top: 12px; }
 
 /* Signup */
 .signup {
